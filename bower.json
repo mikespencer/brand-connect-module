@@ -1,0 +1,8 @@
+{
+  "name": "brand-connect-module",
+  "version": "0.0.0",
+  "dependencies": {
+    "jquery": "~1.7.2"
+  }
+}
+
