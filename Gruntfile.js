@@ -142,6 +142,7 @@ module.exports = function (grunt) {
     },
     uglify: {
       options: {
+        banner: '/* <%= grunt.template.today("yyyy-mm-dd") %> | WP ADOPS */\n',
         sourceMap: '<%= yeoman.dist %>/js/bc.map.js'
       },
       bc: {
